@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>NkNews</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<style>
+img {
+    float: left;
+    width:300px;height:300px;margin-left:15px;
+}
+body {
+    background-image: url("data:image/jpeg;base64,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");
+  background-repeat: no-repeat;
+  min-height: 679px;
+  background-size: cover;
+}
+</style>
+
+
+</head>
+<body>
+
+<div class="jumbotron well well-sm text-center">
+  <h1 style="color:blue;"> NKNews </h1>
+  <p>India's fastest responsive News app</p>
+</div>
+
+<div class="row  ">
+        <div class="col-sm-1 ">
+        </div>
+    <div class="col-sm-6 ">
+        <p style="font-size: 25px; color:blue;"><span> {{newss.news}} </span></p>
+        <br>
+        <p style="font-size: 25px;"><span>{{newss.description}}</span></p>
+        <br>
+    </div>
+    <div class="col-sm-4">
+            <img src="{{newss.photos}}">
+    </div><br><br>
+</div>
+
+
+
+
+

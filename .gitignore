@@ -1,0 +1,6 @@
+staticfiles
+*.log
+__pycache__
+db.sqlite3
+.idea
+.env

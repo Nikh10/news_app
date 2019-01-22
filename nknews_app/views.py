@@ -19,7 +19,7 @@ def details_view(request, id):
 
     return render(request, 'nknews_app/details.html', context)
     
-@login_required(login_url='/login')
+# @login_required(login_url='/login')
 def index_view(request):
     result = populate_data()
     listvar = []
